@@ -1,4 +1,4 @@
-var weather = prompt(`
+let weather = prompt(`
     Select weather:
     1-Sunny 
     2-Rainy 
@@ -23,8 +23,8 @@ The sun shines in the sky. <br>
 We feel warm and happy.</p>
     
   </div>
-  `)
-} else if (weather === "Rainy"){
+  `);
+} else if (weather === "rainy"){
     document.writeln(` 
       <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden; background-color: rgb(96, 185, 210);">
 <div class="card" style="width: 18rem;">
@@ -38,8 +38,8 @@ We use umbrellas and raincoats.</p>
   </div>
 </div>
 </div>
-     `)
-} else if (weather === "Cloudy"){
+     `);
+    }else if (weather === "cloudy"){
   document.writeln(`
      <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: darkgray;">
 <div class="card" style="width: 18rem;">
@@ -53,8 +53,8 @@ It may rain anytime.</p>
   </div>
 </div>
 </div>
-    `)
-} else if(weather === "Windy"){
+    `);
+} else if(weather === "windy"){
   document.writeln(`  
     <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: rgb(161, 148, 97)">
 <div class="card" style="width: 18rem;">
@@ -68,8 +68,8 @@ Kites fly high in the sky.</p>
   </div>
 </div>
 </div>
-    `)
-} else if(weather === "Winter"){
+    `);
+} else if(weather === "winter"){
   document.writeln(` 
      <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: rgb(206, 195, 150)">
 <div class="card" style="width: 18rem;">
@@ -83,8 +83,8 @@ Sometimes there is fog or snow.</p>
   </div>
 </div>
 </div>
-    `)
-} else if(weather === "Summer"){
+    `);
+} else if(weather === "summer"){
   document.writeln(`
      <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: rgb(208, 235, 165)">
 <div class="card" style="width: 18rem;">
@@ -98,8 +98,8 @@ We drink water and wear light clothes.</p>
   </div>
 </div>
 </div>
-    `)
-} else if(weather === "Stormy"){
+    `);
+} else if(weather === "stormy"){
   document.writeln(`
      <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: rgb(100, 116, 99);">
 <div class="card" style="width: 18rem;">
@@ -113,8 +113,8 @@ We stay safe indoors.</p>
   </div>
 </div>
 </div>
-    `)
-} else if(weather === "Snowy"){
+    `);
+} else if(weather === "snowy"){
   document.writeln(`
      <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: rgb(160, 150, 194);">
 <div class="card" style="width: 18rem;">
@@ -128,8 +128,8 @@ Everything looks white and beautiful.</p>
   </div>
 </div>
 </div>
-    `)
-} else if(weather === "Autumn"){
+    `);
+} else if(weather === "autumn"){
   document.writeln(`
     <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: rgba(228, 204, 109, 0.963)">
 <div class="card" style="width: 18rem;">
@@ -143,8 +143,8 @@ Leaves change color and fall from trees.</p>
   </div>
 </div>
 </div>
-    `)
-} else if(weather === "Spring"){
+    `);
+} else if(weather === "spring"){
   document.writeln(`
     <div class="d-flex align-items-center justify-content-center" style="height: 100vh;width: 100vw;overflow: hidden;background-color: cornsilk">
 <div class="card" style="width: 18rem;">
@@ -158,7 +158,7 @@ The weather is fresh and nice.</p>
   </div>
 </div>
 </div>
-    `)
+    `);
 } else{
  document.writeln(` <div class="d-flex align-item-center justify-content-center" style="height: 100vh; width: 100vw; background-color: brown;">
   <img src="https://i.pinimg.com/originals/37/e6/54/37e6546555565309406876ec766d5b05.gif" alt="funny image">
